@@ -1,5 +1,5 @@
 body{
-
+margin: 0;
 }
 h1,h2,h3,h4,h5,h6{
   color:
@@ -8,11 +8,33 @@ h1,h2,h3,h4,h5,h6{
 footer{
 
   height: 30px;
-  width: 100%;
-  background-color:#33BBF5 ;
+  width: 200%;
+  background-color:#33BBF5;
+  position:
 }
 div.header{
 height: 50px;
-width: 100%;
+width: 200%;
 background-color:# ;
+}
+div.a{
+  height: 100px;
+  width: 200%;
+  background-color:#3067E2;
+  opacity: 0.5;
+}
+div.c{
+  text-align: center;
+
+}
+header{
+  opacity: 0.5;
+  height: 50px;
+  width: 200%;
+  background-color:#FFFDFD ;
+}
+button{
+  background-color:#33BBF5;
+  width: 90px;
+  text-align: center;
 }
