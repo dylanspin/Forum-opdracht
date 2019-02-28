@@ -1,9 +1,7 @@
 body{
 margin: 0;
 }
-h1,h2,h3,h4,h5,h6{
-  color:
-}
+
 
 div.footer{
 
@@ -39,15 +37,20 @@ div.b{
   margin: auto;
 }
 
-header{
-  opacity: 0.5;
+div.l{
+  opacity: 0.7;
   height: 100px;
   width: 200%;
   background-color:#FFFDFD ;
+  color: #3067E2;
+  margin-top: -33px;
 }
 
 button{
   background-color:#33BBF5;
   width: 90px;
   text-align: center;
+}
+h1{
+    font-size: 300%;
 }
