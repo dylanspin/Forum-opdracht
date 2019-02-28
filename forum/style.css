@@ -45,6 +45,14 @@ div.l{
   color: #3067E2;
   margin-top: -33px;
 }
+div.text{
+  height: 120px;
+  width: 97%;
+  background-color:#FFFDFD ;
+  color: #3067E2;
+  margin-top: ;
+  margin: auto;
+}
 
 button{
   background-color:#33BBF5;
@@ -53,4 +61,7 @@ button{
 }
 h1{
     font-size: 300%;
+}
+h2{
+  font-size: 200%
 }
