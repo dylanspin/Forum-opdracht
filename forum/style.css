@@ -5,34 +5,47 @@ h1,h2,h3,h4,h5,h6{
   color:
 }
 
-footer{
+div.footer{
 
-  height: 30px;
+  height: 60px;
   width: 200%;
   background-color:#33BBF5;
-  position:
+  opacity: 0.5;
+  bottom: 0px;
+  position: absolute;
+	text-align: center;
 }
+
 div.header{
 height: 50px;
 width: 200%;
 background-color:# ;
 }
+
 div.a{
-  height: 100px;
+  height: 80px;
   width: 200%;
   background-color:#3067E2;
   opacity: 0.5;
 }
 div.c{
   text-align: center;
-
 }
+div.b{
+  height: 50px;
+  width: 97%;
+  background-color:#3067E2;
+  color: white;
+  margin: auto;
+}
+
 header{
   opacity: 0.5;
-  height: 50px;
+  height: 100px;
   width: 200%;
   background-color:#FFFDFD ;
 }
+
 button{
   background-color:#33BBF5;
   width: 90px;
