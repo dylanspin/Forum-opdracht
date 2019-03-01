@@ -59,11 +59,13 @@ div.text{
 div.button{
   margin-top: -25px;
   text-align: center;
-
+  z-index: 110;
+  position:relative;
 }
 div.picture{
 margin-top: -90px;
-
+z-index: 110;
+position:relative;
 }
 button{
   background-color:#33BBF5;
@@ -71,10 +73,11 @@ button{
   height: 40px;
   display: inline-block;
   border: none;
-  z-index: 1;
-
-
 }
+.button1{
+  background-color:#3067E2;
+}
+
 h1{
     font-size: 300%;
 }
