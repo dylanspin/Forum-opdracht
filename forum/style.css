@@ -44,9 +44,7 @@ div.l{
   width: 100%;
   background-color:#FFFDFD ;
   color: #3067E2;
-  margin-top: -48px;
-  vertical-align: middle;
-
+  margin-top: -628px;
 }
 div.text{
   height: 120px;
@@ -63,6 +61,10 @@ div.button{
   text-align: center;
 
 }
+div.picture{
+margin-top: -90px;
+
+}
 button{
   background-color:#33BBF5;
   width: 180px;
@@ -70,10 +72,6 @@ button{
   display: inline-block;
   border: none;
   z-index: 1;
-
-
-
-
 
 
 }
