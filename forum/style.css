@@ -44,7 +44,11 @@ div.l{
   width: 100%;
   background-color:#FFFDFD ;
   color: #3067E2;
-  margin-top: -628px;
+  margin-top: -108px;
+  position:relative;
+  vertical-align: middle;
+
+
 }
 div.text{
   height: 120px;
@@ -67,19 +71,30 @@ margin-top: -90px;
 z-index: 110;
 position:relative;
 }
+div.zoek{
+  margin-top: -570px;
+  z-index: 110;
+  position:relative;
+  left: 1250px;
+  height: 40px;
+  width: 17%;
+  background-color:#5380E8;
+  text-align: right;
+}
 button{
   background-color:#33BBF5;
   width: 180px;
   height: 40px;
   display: inline-block;
   border: none;
+  color: white;
 }
 .button1{
   background-color:#3067E2;
 }
 
 h1{
-    font-size: 300%;
+    font-size: 400%;
 }
 h2{
   font-size: 200%
