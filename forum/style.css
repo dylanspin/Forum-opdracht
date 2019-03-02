@@ -44,7 +44,7 @@ div.l{
   width: 100%;
   background-color:#FFFDFD ;
   color: #3067E2;
-  margin-top: 430px;
+  margin-top: -112px;
   position:relative;
   vertical-align: middle;
 
@@ -73,7 +73,7 @@ z-index: 110;
 position:relative;
 }
 div.zoek{
-  margin-top: -570px;
+  margin-top: -70px;
   z-index: 110;
   position:relative;
   left: 1250px;
