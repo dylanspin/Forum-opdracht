@@ -44,7 +44,7 @@ div.l{
   width: 100%;
   background-color:#FFFDFD ;
   color: #3067E2;
-  margin-top: -119px;
+  margin-top: 430px;
   position:relative;
   vertical-align: middle;
 
@@ -65,9 +65,10 @@ div.button{
   text-align: center;
   z-index: 110;
   position:relative;
+
 }
 div.picture{
-margin-top: -90px;
+margin-top: -10px;
 z-index: 110;
 position:relative;
 }
@@ -88,14 +89,19 @@ button{
   display: inline-block;
   border: none;
   color: white;
+  text-decoration: none;
 }
 .button1{
   background-color:#3067E2;
 }
 
 h1{
-    font-size: 500%;
+    font-size: 400%;
 }
 h2{
-  font-size: 250%
+  font-size: 200%;
+}
+h3{
+  font-size:120%;
+  color: white;
 }
