@@ -65,7 +65,6 @@ div.button{
   text-align: center;
   z-index: 110;
   position:relative;
-
 }
 div.picture{
 margin-top: -10px;
@@ -84,15 +83,18 @@ div.zoek{
 }
 button{
   background-color:#33BBF5;
-  width: 180px;
-  height: 40px;
-  display: inline-block;
-  border: none;
-  color: white;
-  text-decoration: none;
+   width: 180px;
+   height: 40px;
+   display: inline-block;
+   border: none;
+   color: white;
+   text-decoration: none;
+
+
 }
 .button1{
   background-color:#3067E2;
+  height: 40px;
 }
 
 h1{
