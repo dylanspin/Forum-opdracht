@@ -15,15 +15,14 @@
       <?php
         Class NewClass{
 
-        public $voornaam = "Dylan";
-        public $achternaam = "Spin";
-        public $geboortedatum = "09-07-2002";
+          public $voornaam = "Dylan";
+          public $achternaam = "Spin";
+          public $geboortedatum = "09-07-2002";
 
         }
 
         $object = new NewClass;
         var_dump($object);
-        echo "<br><br>";
         echo $object->voornaam;
         echo "<br>";
         echo $object->achternaam;
@@ -50,15 +49,15 @@
     <?php
     Class UserClass{
 
-    public $voornaam = "Dylan";
-    public $achternaam = "Spin";
-    private $geboortedatum = "09-07-2002";
-    private $username = "een naam";
-    private $wachtwoord  = "een wachtwoord";
+      public $voornaam = "Dylan";
+      public $achternaam = "Spin";
+      private $geboortedatum = "09-07-2002";
+      private $username = "een naam";
+      private $wachtwoord  = "een wachtwoord";
 
-    private function instellingen(){
-      echo "deze function is private";
-    }
+      private function instellingen(){
+        echo "deze function is private";
+      }
     }
     echo "<br>";
     $object2 = new UserClass;

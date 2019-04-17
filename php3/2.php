@@ -24,8 +24,8 @@
 
       public function getUsername() {
         return $this->_username;
-    }
-  }
+     }
+   }
 
       $naam1 = new UserClass('dylan spin');
       echo $naam1->getUsername();
@@ -49,7 +49,7 @@
        </h2>
      <h1>opdracht_11</h1>
        <h2>
-           Het is handig wanneer 
+           Het is handig wanneer
        </h2>
 
 
