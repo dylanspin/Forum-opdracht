@@ -1,5 +1,4 @@
 div.vak{
-
   background-color: white;
   height: 100px;
   width: 100px;
@@ -10,9 +9,27 @@ margin-left: 34%;
 div.center{
   text-align: center;
 }
-h1{
+h1.hoofd{
   color: white;
   font-size: 400%;
+}
+h1{
+  color: white;
+}
+button{
+  background-color: white;
+  height: 100px;
+  width: 100px;
+}
+input[type=submit]{
+  border: none;
+  background-color: white;
+  height: 100px;
+  width: 100px;;
+}
+input[type=submit]:hover {
+   background-color: #1B63DF;
+   border: none;
 }
 html
   .column{
