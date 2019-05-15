@@ -1,34 +1,51 @@
 
-  var tell = 0;
+var tell = 0;
+
+/*  document.getElementById(1).innerHTML = ;
+  document.getElementById(2).innerHTML = ;
+  document.getElementById(3).innerHTML = ;
+  document.getElementById(4).innerHTML = ;
+  document.getElementById(5).innerHTML = ;
+  document.getElementById(6).innerHTML = ;
+  document.getElementById(7).innerHTML = ;
+  document.getElementById(8).innerHTML = ;
+  document.getElementById(9).innerHTML = ;
+  document.getElementById(10).innerHTML = ;
+  document.getElementById(11).innerHTML = ;
+  document.getElementById(12).innerHTML = ;
+  document.getElementById(13).innerHTML = ;
+  document.getElementById(14).innerHTML = ;
+  document.getElementById(15).innerHTML = ;
+  document.getElementById(16).innerHTML = ;*/
+
+  // een array van 8 lang dan een random dan pakt die een loc voor een van het array als dat nummer twee keer is geweest dan moet die uit het array worden gehaa
+
+  var nums = [1,2,3,4,5,6,7,8];
+  var vakjes = ["","","","","","","","","","","","","","","",""];
+  var b;
+
+  for(b=0; b<=16; b++){
+    var random = Math.floor(Math.random() * 8);
+    vakjes[b] = random;
+  }
 
   function Kleur(t){
     var vak = t.id;
+
+    var rand = 7;
     tell += 1;
+    var i;
+    var f;
+    /*if(){
 
+    }*/
+  	document.getElementById(vak).innerHTML = "<br><div class='centerr'><h1 class='num'>"+vakjes[vak]+"</h1</div>";
     document.getElementById(vak).style.backgroundColor = "#1B63DF";
-
-    if(tell == 3){ //dit moet korter maar voor een of andere reden will de for loop niet mee werken
-      /*for(var i=0; i<=25; i++){
-        //document.getElementById('test').innerHTML = "<h1>"+i+"</h1>";
+    if(tell == 3){
+      for(i=1; i<=16; i++){
+        document.getElementById(i).innerHTML = "";
         document.getElementById(i).style.backgroundColor = "white";
-      }*/
-      document.getElementById(1).style.backgroundColor = "white";
-      document.getElementById(2).style.backgroundColor = "white";
-      document.getElementById(3).style.backgroundColor = "white";
-      document.getElementById(4).style.backgroundColor = "white";
-      document.getElementById(5).style.backgroundColor = "white";
-      document.getElementById(6).style.backgroundColor = "white";
-      document.getElementById(7).style.backgroundColor = "white";
-      document.getElementById(8).style.backgroundColor = "white";
-      document.getElementById(9).style.backgroundColor = "white";
-      document.getElementById(10).style.backgroundColor = "white";
-      document.getElementById(11).style.backgroundColor = "white";
-      document.getElementById(12).style.backgroundColor = "white";
-      document.getElementById(13).style.backgroundColor = "white";
-      document.getElementById(14).style.backgroundColor = "white";
-      document.getElementById(15).style.backgroundColor = "white";
-      document.getElementById(16).style.backgroundColor = "white";
-
+      }
       tell -= 3;
     }
     else{
@@ -36,20 +53,3 @@
     }
 
   }
-
-
-  /*var speler = true;
-      function Achtergrond(t){
-        var div = t.id;
-          if (speler){
-            document.getElementById(div).style.backgroundColor = "#1B63DF";
-            speler = false;
-            document.getElementById(div).innerHTML ="<div class='center'><h1 class = 'een'>" + "0" +"</h1></div>";
-          }
-          else{
-            document.getElementById(div).style.backgroundColor = "#F45A18";
-            speler = true;
-            document.getElementById(div).innerHTML ="<div class='center'><h1 class = 'een'>" + "×" +"</h1></div>";
-          }
-      }
-*/
