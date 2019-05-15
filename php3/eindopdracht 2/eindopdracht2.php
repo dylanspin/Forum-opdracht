@@ -32,7 +32,9 @@
     //als er 2 dezelfde getallen hebben dan moeten ze een andere kleur krijgen of weg gehaalt. als ze allemaal goed zijn moet er een knop komen
     //als je daar op klikt dan word de game gereset
       include('include.php');
-    ?><br>
+    ?>
+
+    <p id="test"></p>
   </div>
   </body>
 </html>
