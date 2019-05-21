@@ -7,6 +7,7 @@ var tell2 = 1;
   shuffle(vakjes);
   var check = ["",true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true];
   var goed = ["1","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"]
+
   var gelijk = ["","",""]; //de twee nums van de aangeklikte vakjes
   var geklikt =["","",""]; //de twee vakjes voor als het klopt moeten deze twee false worden in check[]
 
@@ -23,7 +24,6 @@ var tell2 = 1;
       gelijk[tell2] = vakjes[vak]; //werkt
       geklikt[tell2] = vak; //werkt
       tell2 += 1;
-      document.getElementById('test').innerHTML = geklikt[1]+geklikt[2];
     }
     else{
     }
@@ -38,7 +38,7 @@ var tell2 = 1;
     }
 
     if(tell == 3){
-      for(i=0; i<=16; i++){
+      for(i=1; i<=16; i++){
         document.getElementById(goed[i]).innerHTML = ""; //wist alle nums moet nog zorgen dat niet de goede weg gaan
         document.getElementById(goed[i]).style.backgroundColor = "white"; //maakt als weer wit
         gelijk[i] ="";//maakt alles weer"" in gelijk[]
@@ -51,9 +51,9 @@ var tell2 = 1;
     }
   }
 
-  function shuffle(array) {//is voor de shuffle van de array voor random nums in random vakjes
-    for (let i = array.length; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i));
-        [array[i], array[j]] = [array[j], array[i]];
+    function shuffle(a) {
+    for ( u =0; u <=16; u++) {
+        const j = Math.floor(Math.random() * (u));
+        [a[u], a[j]] = [a[j], a[u]];
     }
-}
+  }
